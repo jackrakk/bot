@@ -369,4 +369,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 await query.message.delete()
                 
     else:
-        await query.answer("I don't know it",show_alert=True)
+        await query.answer("it's not in our search",show_alert=True)
