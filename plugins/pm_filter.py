@@ -345,8 +345,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='@Raj_Files_backup'),
-                        InlineKeyboardButton('Update Channel', url='t.me/+v5RHr4FbyDY2MTJl')
+                        InlineKeyboardButton('More Bots', url='https://t.me/Raj_Files_backup'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/+v5RHr4FbyDY2MTJl')
                     ]
                     ]
                 
