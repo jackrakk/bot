@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('Join Channel', url='@Raj_Files_backup')
+                        InlineKeyboardButton('Join Channel', url='https://t.me/Raj_Files_backup')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -100,7 +100,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Join Channel", url="@Raj_Files_backup")
+                        InlineKeyboardButton("Join Channel", url="https://t.me/Raj_Files_backup")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -192,8 +192,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='@Raj_Files_backup'),
+            InlineKeyboardButton('Update Channel', url='https://t.me/Raj_Files_backup'),
             InlineKeyboardButton('Source Code', url='https://www.youtube.com/watch?v=7yuQipPtCqY')
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://www.youtube.com/shorts/M8c3Qha-6Cg'>Click here</a>\nUpdate Channel : <a href='@Raj_Files_backup'>Raj Files Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://www.youtube.com/shorts/M8c3Qha-6Cg'>Click here</a>\nUpdate Channel : <a href='https://t.me/Raj_Files_backup'>Raj Files Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
