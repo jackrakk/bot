@@ -14,8 +14,8 @@
       "index",
       "inline"
     ],
-    "Channel": "https://t.me/Raj_Files_backup",
-    "group": "https://t.me/+v5RHr4FbyDY2MTJl",
+    "Channel": "https://t.me/RFs_Movies",
+    "group": "https://t.me/Raj_Files",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
