@@ -288,11 +288,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/Raj_Files_backup'),
-                    InlineKeyboardButton('Source Code', url='https://t.me/+v5RHr4FbyDY2MTJl')
+                    InlineKeyboardButton('Update Channel', url='https://t.me/Raj_Files'),
+                    InlineKeyboardButton('Source Code', url='https://t.me/RF_Movie')
                 ]
                 ]
-            await query.message.edit(text="Source Code : <a href='https://www.youtube.com/watch?v=8S6x-giNzvk'>Click here</a>\nUpdate Channel : <a href='https://t.me/Raj_Files_backup'>Raj Files Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="Source Code : <a href='https://www.youtube.com/watch?v=8S6x-giNzvk'>Click here</a>\nUpdate Channel : <a href='https://t.me/RF_Movie'>Raj Files Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -313,8 +313,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/Raj_Files_backup'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/+v5RHr4FbyDY2MTJl')
+                        InlineKeyboardButton('More Bots', url='https://t.me/RFs_Movies'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/RFs_Movies')
                     ]
                     ]
                 
@@ -345,8 +345,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/Raj_Files_backup'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/+v5RHr4FbyDY2MTJl')
+                        InlineKeyboardButton('More Bots', url='https://t.me/RFs_Movies'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/Raj_Files')
                     ]
                     ]
                 
